@@ -36,7 +36,7 @@ function currentLine(line){
       //use for loop to push numbers and names to the empty upArray
         upArray.push(`${i+1}. ${line[i]}`);
     }
-    //use the join() to add a comma and space between each elements
+    //use the join() to add a comma and a space between each elements
     return `The line is currently: ${upArray.join(', ')}`;
   }
 
