@@ -14,6 +14,7 @@ for(var i=0; i<num.length;i++)
 
 function nowServing(serving){
   if(serving.length<0){
-    return "There is nobody waiting to be served!";
+    var s ="There is nobody waiting to be served!"
+    return s;
   }
 }
