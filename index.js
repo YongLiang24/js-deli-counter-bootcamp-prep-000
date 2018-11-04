@@ -40,12 +40,12 @@ function currentLine(line){
     for(var i=0; i<line.length; i++)
     {
 
-        upArray.push(`${i+1}. ${line[i]}`+` `);
+        upArray.push(`${i+1}. ${line[i]}`);
 
 
     }
 
-    return `The line is currently: ${upArray}`;
+    return `The line is currently: ${upArray.join(' ')}`;
   }
 
 
