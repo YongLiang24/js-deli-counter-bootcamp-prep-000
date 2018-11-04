@@ -13,10 +13,12 @@ for(var i=0; i<num.length;i++)
 
 //Function 2 start
 function nowServing(serving){
+  //return this when array is empty
   if(serving.length<1){
     return "There is nobody waiting to be served!"
   }
   else{
+    //use shift() to remove the first element and return it.
     return `Currently serving ${serving.shift()}.`;
 
   }
