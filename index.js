@@ -1,7 +1,7 @@
 function takeANumber(num, name){
-  num.push(name);//push the names to the array num
-var i;
-for(i=0; i<num.length;i++)
+num.push(name);//push the names to the array num
+
+for(var i=0; i<num.length;i++)
 {
   if(num[i]===name)
   {
