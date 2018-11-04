@@ -11,9 +11,19 @@ for(var i=0; i<num.length;i++)
   }
 }
 }
-
+/*t('returns an announcement about the person it is serving, and shifts the line', () => {
+  const deliLine = ["Steven", "Blake", "Avi"]
+  expect(nowServing(deliLine)).toEqual("Currently serving Steven.");
+  expect(deliLine).toEqual(["Blake", "Avi"]);*/
 function nowServing(serving){
   if(serving.length<1){
     return "There is nobody waiting to be served!"
   }
+  else{
+    var firstPerson = serving.shift();
+    return "Currently serving ${firstPerson}"
+
+  }
+
+  return serving;
 }
