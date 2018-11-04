@@ -2,7 +2,6 @@ var temp=[];
 function takeANumber(num, name){
 
   num.push(name);
-  temp.push(name);
-  var string = `Welcome, ${temp[0]}. You are number ${temp.length} in line.`;
+  var string = `Welcome, ${name}. You are number ${num.length} in line.`;
   return string;
 }
