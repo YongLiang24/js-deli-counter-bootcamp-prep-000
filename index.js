@@ -13,7 +13,7 @@ for(var i=0; i<num.length;i++)
 }
 
 function nowServing(serving){
-  if(serving.length<0){
+  if(serving.length<1){
     var s ="There is nobody waiting to be served!"
     return s;
   }
