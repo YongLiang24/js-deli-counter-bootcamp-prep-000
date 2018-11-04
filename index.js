@@ -20,10 +20,8 @@ function nowServing(serving){
     return "There is nobody waiting to be served!"
   }
   else{
-    var firstPerson = serving.shift();
-    return "Currently serving ${firstPerson}"
+    return `Currently serving ${serving.shift()}`;
 
   }
-
   return serving;
 }
