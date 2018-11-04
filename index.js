@@ -45,7 +45,7 @@ function currentLine(line){
 
     }
 
-    return `The line is currently: ${upArray.join()}`;
+    return `The line is currently: ${upArray.join( )}`;
   }
 
 
