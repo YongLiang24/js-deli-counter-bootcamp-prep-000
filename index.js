@@ -48,7 +48,7 @@ function currentLine(line){
 
     }
 
-    return upArray;
+    return `The line is currently: ${upArray}`;
   }
 
 
