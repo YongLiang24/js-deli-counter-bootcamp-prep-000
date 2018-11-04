@@ -36,6 +36,20 @@ function currentLine(line){
     return "The line is currently empty."
   }
   else{
-    
+    var upArray = []; //empty array to hold the new elements
+    for(var i=0; i<line.length; i++)
+    {
+      if((i+1)!=line.length){
+        upArray.push(`${i+1}. ${line[i]}, `)
+      }
+      else{
+        upArray.push(`${i+1}. ${line[i]}.`)
+      }
+
+    }
+
+    return upArray;
   }
+
+
 }
