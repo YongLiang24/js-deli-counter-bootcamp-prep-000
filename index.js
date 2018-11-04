@@ -20,7 +20,6 @@ function nowServing(serving){
   else{
     //use shift() to remove the first element and return it.
     return `Currently serving ${serving.shift()}.`;
-
   }
-  return serving;
+  //return serving;
 }
