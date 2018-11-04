@@ -1,6 +1,7 @@
 function takeANumber(num, name){
 
   num = num.push(name);
-  var string = `Welcome, ${num}. You are number 1 in line.`;
+  var position = num[].length+1;
+  var string = `Welcome, ${num[]}. You are number ${position} in line.`;
   return string;
 }
